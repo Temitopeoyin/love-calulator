@@ -1,0 +1,70 @@
+
+body{
+    /* background-color: rgb(185, 86, 102); */
+    background-image:url(image/second.jfif);
+    /* background-image:url(image/backgro.jpeg) ; */
+}
+
+#div{
+    margin-right: 6%;
+    border-radius: 25px;
+   color:red;
+   background-color: white;
+   text-align: center;
+}
+section{
+    background-image:url(image/first.jfif) ;
+    
+    /* border: 2px solid red; */
+    width: 60vw;
+    height: 80vh;
+    margin: auto;
+    padding-top: 7%;
+    padding-left: 2.5%;
+    border-radius: 5%;
+}
+#display{
+    border-radius: 25px;
+    margin-left: -8%;
+    text-align: center;
+    color: red;
+    background-color: white;
+}
+input{
+    padding-left: 60px;
+    border: 1px solid red ;
+    width: 25vw;
+    height: 5vh;
+    margin-left: 20%;
+    margin-top: 4%;
+    border-radius: 25px;
+}
+button{
+    color: red;
+    margin-left: 30%;
+    background-color: white;
+    margin-top:4% ;
+    width: 20vw;
+    height: 5vh;
+    margin-top: 10%;
+    border-radius: 25px;
+    border: 1px solid red;
+    cursor: pointer;
+}
+div.img{
+    display: flex;
+    justify-content: space-around;
+   
+}
+img{
+    margin-top: 12px;
+    width: 10%;
+    height: 5%;
+}
+@media (max-width:375px) {
+    section{
+        width: 50vw;
+        height: 50vh;
+    }
+    
+}
